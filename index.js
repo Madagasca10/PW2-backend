@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-let port = process.env.PORT || 3000;
+let port = process.env.PORT || 8080;
 const importData = require ("./data.json");
 const importRecipes = require("./recipes.json");
 app.use(express.json());

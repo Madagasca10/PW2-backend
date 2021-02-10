@@ -1,18 +1,17 @@
 {
-  "name": "hostapi",
+  "name": "final-pw2-backend-main",
   "version": "1.0.0",
-  "description": "api do heroku",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
   },
-  "engines":{
-    "node": "14.15.0"
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
